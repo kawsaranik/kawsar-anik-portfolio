@@ -70,6 +70,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 img {
@@ -102,7 +103,18 @@ img {
 }
 
 /*=============== PROFILE ===============*/
+.profile{
+  position: relative;
+  padding-top: 3.5rem;
+}
 
+.profile__container{
+  row-gap: 2rem;
+}
+.profile__data{
+  display: grid;
+  text-align: center;
+}
 
 /*=============== BUTTONS ===============*/
 
@@ -136,3 +148,5 @@ img {
 
 
 /* For large devices */
+
+
