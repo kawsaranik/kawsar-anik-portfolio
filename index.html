@@ -111,19 +111,16 @@
       <section class="filters container">
         <!--=============== FILTERS TABS ===============-->
         <ul class="filters__content">
-          <button class="filters__button" data-target="#projects">
+          <button class="filters__button filter-tab-active" data-target="#projects">
             Projects
           </button>
-          <button
-            class="filters__button filter-tab-active"
-            data-target="#skills">Skills</button>
-          
+          <button class="filters__button" data-target="#skills">Skills</button>
         </ul>
 
         <div class="filters__sections">
           <!--=============== PROJECTS ===============-->
 
-          <div class="projects__content grid" data-content id="projects">
+          <div class="projects__content grid filters__active" data-content id="projects">
             <artical class="projects__card">
               <img src="assets/img/project1.jpg" alt="" class="projects__img" />
 
@@ -216,7 +213,7 @@
 
           <!--=============== SKILLS ===============-->
           <div
-            class="skills__content grid filters__active"
+            class="skills__content grid"
             data-content
             id="skills"
           >
