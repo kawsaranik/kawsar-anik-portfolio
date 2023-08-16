@@ -178,6 +178,7 @@ body.dark-theme {
   display: grid;
   place-items: center;
   margin-bottom: 0.75rem;
+  transition: border-color 0.3s ease;
 }
 
 .profile__name {
@@ -199,8 +200,17 @@ body.dark-theme {
 .profile__social-link {
   font-size: 1.25rem;
   color: var(--title-color);
-  transition: 0.3s;
+  transition: color 0.3s ease;
 }
+
+.profile__border:hover {
+  border-color: var(--first-color-alt);
+}
+
+.profile__social-link:hover {
+  color: var(--first-color);
+}
+
 
 .profile__social-link:hover {
   color: var(--first-color);
@@ -402,6 +412,7 @@ body.dark-theme {
 
 .projects__card:hover .projects__modal {
   bottom: 0;
+  transition: bottom 0.3s ease;
 }
 
 /* Hide and show projects & skills */
